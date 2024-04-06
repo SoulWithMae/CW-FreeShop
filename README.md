@@ -2,7 +2,7 @@
 
 Allow you to buy items for free. Work for both client and host.
 
-# Usage 使用方法
+# Usage
 
 1. Install [BepInEx](https://github.com/BepInEx/BepInEx).
 2. Download CW-FreeShop.dll and put it into BepInEx/plugins.
