@@ -1,4 +1,5 @@
-/bin/
-/obj/
+/CW-FreeShop/bin/
+/CW-FreeShop/obj/
+/.vs/
 *.v2
 *.csproj
