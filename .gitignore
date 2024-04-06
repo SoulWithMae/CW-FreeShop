@@ -1,0 +1,4 @@
+/bin/
+/obj/
+*.v2
+*.csproj
