@@ -3,3 +3,4 @@
 /.vs/
 *.v2
 *.csproj
+manifest.json

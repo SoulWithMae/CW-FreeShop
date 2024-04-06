@@ -1,6 +1,6 @@
 # Free Shop
 
-Allow you to buy items for free. Works for both client and host.
+Allow you to buy items for free. Work for both client and host.
 
 # Usage 使用方法
 
