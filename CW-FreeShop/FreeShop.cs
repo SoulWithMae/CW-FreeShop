@@ -13,8 +13,9 @@ namespace CW_FreeShop
         internal const string Version = "1.0.0";
         internal const string Author = "ShingekiNoRex";
 
-        public override void OnInitializeMelon()
+        public override void OnSceneWasInitialized(int buildInex, string sceneName)
         {
+            if (sceneName != "NewMainMenu") return;
             ItemDatabase itemDatabase = SingletonAsset<ItemDatabase>.Instance;
             foreach (Item item in itemDatabase.Objects)
             {
