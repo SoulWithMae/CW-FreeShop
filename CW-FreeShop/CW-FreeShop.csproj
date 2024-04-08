@@ -32,6 +32,9 @@
       <Reference Include="UnityEngine.CoreModule">
         <HintPath>H:\Games\Steam\steamapps\common\Content Warning\Content Warning_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       </Reference>
+      <Reference Include="Zorro.Core.Runtime">
+        <HintPath>H:\Games\Steam\steamapps\common\Content Warning\Content Warning_Data\Managed\Zorro.Core.Runtime.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
