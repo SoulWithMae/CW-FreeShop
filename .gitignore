@@ -2,7 +2,7 @@
 /CW-FreeShop/obj/
 /.vs/
 *.v2
-*.csproj
 manifest.json
 CW-FreeShop.zip
 icon.png
+.idea/

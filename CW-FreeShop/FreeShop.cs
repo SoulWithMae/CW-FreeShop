@@ -1,22 +1,19 @@
-﻿using BepInEx;
-using HarmonyLib;
+﻿using HarmonyLib;
 using Photon.Pun;
 using System.Collections.Generic;
 using System.Linq;
+using MelonLoader;
 
 namespace CW_FreeShop
 {
-	[BepInPlugin("FreeShop", "Free Shop", "1.0")]
-	public class FreeShop : BaseUnityPlugin
+	public class FreeShop : MelonMod
 	{
-		void Awake()
-		{
-			var harmony = new Harmony("FreeShop");
-			harmony.PatchAll(typeof(FreeShopPatch));
-		}
+		internal const string Title = "FreeShop";
+		internal const string Version = "1.0.0";
+		internal const string Author = "ShingekiNoRex";
 	}
 
-	class FreeShopPatch
+	public static class FreeShopPatch
 	{
 		[HarmonyPatch(typeof(ShopHandler), "OnAddToCartItemClicked")]
 		[HarmonyPrefix]
